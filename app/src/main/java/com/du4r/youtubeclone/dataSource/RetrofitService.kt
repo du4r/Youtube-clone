@@ -10,7 +10,7 @@ import retrofit2.http.GET
 
 interface RetrofitService {
 
-    @GET("api/youtube-videos")
+    @GET("Videos")
     fun getVideos(): Call<ListVideo>
 
     companion object {
@@ -18,7 +18,7 @@ interface RetrofitService {
         private val retrofitService: RetrofitService by lazy {
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://tiagoaguiar.co/")
+                .baseUrl("http://10.0.2.2:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 

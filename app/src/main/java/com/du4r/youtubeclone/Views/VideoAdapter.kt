@@ -45,8 +45,11 @@ class VideoAdapter(private val videos: MutableList<Video>, private val onClick: 
 
                 Picasso.get().load(video.thumbnailUrl)
                     .into(findViewById<ImageView>(R.id.video_thumbnail))
+
                 Picasso.get().load(video.publisher.pictureProfileUrl)
                     .into(findViewById<ImageView>(R.id.video_author))
+
+               
 
                 findViewById<TextView>(R.id.video_title).text = video.title
                 findViewById<TextView>(R.id.video_info).text = context.getString(

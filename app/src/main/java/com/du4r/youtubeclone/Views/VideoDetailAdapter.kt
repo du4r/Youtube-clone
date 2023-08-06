@@ -36,6 +36,11 @@ class VideoDetailAdapter(private val videos: List<Video>) :
                 Picasso.get().load(video.thumbnailUrl)
                     .into(findViewById<ImageView>(R.id.video_thumbnail))
 
+                //todo: CARREGAR IMAGEM DO AUTOR
+//                Picasso.get().load(video.publisher.pictureProfileUrl)
+//                    .into(findViewById<ImageView>(R.id.img_channel))
+
+
                 findViewById<TextView>(R.id.video_title).text = video.title
                 findViewById<TextView>(R.id.video_info).text = context.getString(
                     R.string.info,
