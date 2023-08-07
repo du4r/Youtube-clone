@@ -1,5 +1,5 @@
 # Clone do Youtube (em Desenvolvimento)
-
+##### execute "java -jar videos_api -0.0.1-SNAPSHOT.jar" na pasta api_videos para iniciar o servidor spring antes de executar o app
 
 ### Arquitetura e Tecnologia:
 
@@ -10,6 +10,7 @@ Picasso;
 ExoPlayer;
 Android custom views;
 Android animations
+SpringBoot 
 ```
 
 
