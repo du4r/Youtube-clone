@@ -20,7 +20,6 @@ SpringBoot
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <img src="https://github.com/du4r/Youtube-clone/blob/main/Screenshots/1.png" width="250"> |
-<img src="https://github.com/du4r/Youtube-clone/blob/main/Screenshots/2.png" width="250"> |
 <img src="https://github.com/du4r/Youtube-clone/blob/main/Screenshots/3.png" width="250"> |
 <img src="https://github.com/du4r/Youtube-clone/blob/main/Screenshots/4.png" width="250"> |
 
